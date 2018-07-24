@@ -20,7 +20,7 @@ impl<'storage> Azad<'storage> {
         println!("k: {:?}", k);
         let res = read(path).unwrap();
         let mut deser: Azad = deserialize(&res).unwrap();
-        callback(&mut deser);
+        callback(&mut deser)
     }
     
     pub fn set(&self, k: &'storage str, v: &'storage [u8]) -> Result<(), &'storage str> {
