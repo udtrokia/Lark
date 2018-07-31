@@ -1,0 +1,3 @@
+[submodule "enterface/ethereum-key"]
+	path = enterface/ethereum-key
+	url = git@github.com:udtrokia/ethereum-key.git
